@@ -1,0 +1,58 @@
+/* Legacy CSS module - styles are now handled in App.css */
+/* Kept for backward compatibility */
+
+.meetVideoContainer {
+    position: relative;
+    height: 100vh;
+    background: #05070f;
+}
+
+.meetUserVideo {
+    position: absolute;
+    bottom: 10vh;
+    height: 20vh;
+    width: auto;
+    left: 0;
+    border-radius: 20px;
+}
+
+.buttonContainers {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+
+.conferenceView {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.conferenceView video {
+    width: 40vw;
+    height: 20vh;
+    min-width: 30vw;
+    border-radius: 10px;
+}
+
+.chatRoom {
+    position: absolute;
+    height: 90vh;
+    right: 0;
+    background: rgba(12, 16, 30, 0.95);
+    border-radius: 10px;
+    width: 30vw;
+    padding-inline: 20px;
+}
+
+.chatContainer {
+    position: relative;
+    height: 100%;
+}
+
+.chattingArea {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
