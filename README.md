@@ -1,14 +1,17 @@
 # 🚀 NexMeet – Real-Time Video Conferencing App
 
-NexMeet is a full-stack real-time video conferencing application built using the **MERN stack**, **WebRTC**, and **Socket.IO**. It allows users to create and join meeting rooms with live video and audio communication, similar to modern platforms like Zoom and Google Meet.
+NexMeet is a full-stack real-time video conferencing application built using the **MERN stack**, **WebRTC**, and **Socket.IO**. It allows users to create and join meeting rooms with live video and audio communication, similar to platforms like Zoom and Google Meet.
 
 This project demonstrates real-time communication, peer-to-peer connection, and scalable backend architecture.
 
 ---
 
 ## 🌐 Live Demo
-- 🔗 Frontend: [Live Frontend](https://nextmeet-fronted.vercel.app)  
-- 🔗 Backend: [Live Backend](https://nextmeet-ub3v.onrender.com)
+
+- 🔗 Frontend: [🚀 Open Frontend](https://nextmeet-fronted.vercel.app)  
+- 🔗 Backend: [⚙️ Open Backend](https://nextmeet-ub3v.onrender.com)
+
+---
 
 ## ⚙️ Tech Stack
 
@@ -38,30 +41,30 @@ This project demonstrates real-time communication, peer-to-peer connection, and 
 ## ✨ Features
 
 ### 🎥 Video Conferencing
-- Real-time video and audio communication
-- Peer-to-peer connection using WebRTC
-- Low latency streaming
+- Real-time video and audio communication  
+- Peer-to-peer connection using WebRTC  
+- Low latency streaming  
 
 ### 🔗 Meeting System
-- Create meeting rooms
-- Join using room ID
-- Multiple participants support
+- Create meeting rooms  
+- Join using room ID  
+- Multiple participants support  
 
 ### 💬 Real-Time Signaling
-- WebRTC signaling handled via Socket.IO
-- Instant connection setup between users
+- WebRTC signaling handled via Socket.IO  
+- Instant connection setup between users  
 
 ### 🔐 Authentication
-- User signup and login system
-- Secure authentication flow
+- User signup and login system  
+- Secure authentication flow  
 
 ### 📜 Meeting History
-- Track previously joined meetings
-- Store meeting details in database
+- Track previously joined meetings  
+- Store meeting details in database  
 
 ### 🌍 Deployment Ready
-- Fully deployed frontend and backend
-- Accessible globally
+- Fully deployed frontend and backend  
+- Accessible globally  
 
 ---
 
@@ -100,7 +103,7 @@ NexMeet/
 
 ### 1. Clone the repository
 
-git clone https://github.com/ramk7261/Uber-clone.git
+git clone https://github.com/ramk7261/nexmeet-video-app.git
 
 ### 2. Install dependencies
 
@@ -162,7 +165,7 @@ MONGO_URI=your_mongodb_connection_string
 
 - No screen sharing feature  
 - Limited scalability for large meetings  
-- No chat system (optional enhancement)  
+- No chat system (can be added)  
 - No recording feature  
 - Basic UI (can be improved further)  
 
